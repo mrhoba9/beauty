@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preload" as="image" href="./images/logo.jpg" type="image/jpeg">
+        <link rel="icon" href="./images/logo.jpg" type="image/jpeg">
+        <title>Hadeer Fahmy Beauty Salon</title>
+
+        <!-- font awesome cdn link  -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+        <link rel="preconnect" href="https://unpkg.com">
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.css" media="print" onload="this.media='all'">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <a href="#home" class="logo"> <img loading="lazy" src="./images/logo.jpg" alt="image"> </a>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+        </header>
+
+        <!-- Nav -->
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#reviews">reviews</a>
+            <a href="#footer">the end</a>
+        </nav>
+
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="slide active">
+                <div class="content">
+                    <img width="500" height="300" loading="lazy" src="./images/content-img-1.png" alt="image">
+                    <span>Discover Beauty Trends 2025</span>
+                    <h3>Elevate Your Look</h3>
+                    <a href="https://www.facebook.com/share/19cN25zYL5/?mibextid=wwXIfr" class="btn">Explore Now</a>
+                    <div class="controls">
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img width="500" height="300" loading="lazy" src="./images/navv.jpg" alt="image">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <img width="500" height="300" loading="lazy" src="./images/content-img-2.png" alt="image">
+                    <span>Luxury Meets Style</span>
+                    <h3>Timeless Accessories</h3>
+                    <a href="https://www.facebook.com/share/19cN25zYL5/?mibextid=wwXIfr" class="btn">Shop the Collection</a>
+                    <div class="controls">
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img width="500" height="300" loading="lazy" src="./images/home-img-2.png" alt="image">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <img width="500" height="300" loading="lazy" src="./images/content-img-3.png" alt="image">
+                    <span>Glow Like Never Before</span>
+                    <h3>Luxury Skincare</h3>
+                    <a href="https://www.facebook.com/share/19cN25zYL5/?mibextid=wwXIfr" class="btn">See What's New</a>
+                    <div class="controls">
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img width="500" height="300" loading="lazy" src="./images/home-img-3.png" alt="image">
+                </div>
+            </div>
+        </section>
+
+        <!-- category section starts  -->
+        <section class="category" id="category">
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-1.png" alt="image">
+                <p>cosmetics</p>
+            </a>
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-2.png" alt="image">
+                <p>makeup</p>
+            </a>
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-3.png" alt="image">
+                <p>powder</p>
+            </a>
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-4.png" alt="image">
+                <p>lotions</p>
+            </a>
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-5.png" alt="image">
+                <p>lipstick</p>
+            </a>
+            <a href="#" class="box">
+                <img loading="lazy" src="./images/category-6.png" alt="image">
+                <p>mascara</p>
+            </a>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="content">
+                <span>Why Choose Us?</span>
+                <h3>Hadeer Beauty Salon</h3>
+                <p>At Hadeer Beauty Salon, we believe in bringing out your natural beauty with expert care. Our professional team offers top-quality services, from hair styling to skincare, ensuring you leave feeling confident and radiant. Experience beauty like never before!</p>
+                <a href="https://www.facebook.com/share/19cN25zYL5/?mibextid=wwXIfr" class="btn">Visit Our Page</a>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery" id="gallery">
+            <div class="heading">
+                <h1>our gallery</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+            </div>
+            <div class="lightbox">
+                <a href="./images/logo.jpg"><img width="500" height="300" loading="lazy" src="./images/logo.jpg" alt="image"></a>
+                <a href="./images/bggg.jpg"><img width="500" height="300" loading="lazy" src="./images/bggg.jpg" alt="image"></a>
+                <a href="./images/navv.jpg"><img width="500" height="300" loading="lazy" src="./images/navv.jpg" alt="image"></a>
+                <a href="./images/img-4.jpg"><img width="500" height="300" loading="lazy" src="./images/img-4.jpg" alt="image"></a>
+                <a href="./images/img-5.jpg"><img width="500" height="300" loading="lazy" src="./images/img-5.jpg" alt="image"></a>
+                <a href="./images/img-6.jpg"><img width="500" height="300" loading="lazy" src="./images/img-6.jpg" alt="image"></a>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="reviews" id="reviews">
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="data:image/jpeg;base64,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" alt="image">
+                            <div class="info">
+                                <h3>Mai Ali</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text"><strong style="color:#e84393">Hadeer Fahmy Beauty Salon</strong> is the ultimate destination for luxury beauty treatments 💆‍♀️✨. With expert stylists 💇‍♀️💄 and premium products 🛍️🌿, they provide top-tier services that leave you feeling refreshed, confident, and stunning. 🌟😍  </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="data:image/jpeg;base64,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" alt="image">
+                            <div class="info">
+                                <h3>Farah Mohamed</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text">When it comes to beauty and self-care 💆‍♀️💖, <strong style="color:#e84393">Hadeer Fahmy Beauty Salon</strong> stands above the rest ✨👑. Their talented professionals 💇‍♀️💄 deliver outstanding hair, skin, and makeup services 🎨🧖‍♀️, ensuring a flawless and radiant look every time. 🌟😊  </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXC5ZmUBfNEqHNUKB4fe4c9F2w4O5HaHEn8w&s" alt="image">
+                            <div class="info">
+                                <h3>Lara Fathallah</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text">Experience elegance and perfection ✨💖 at <strong style="color:#e84393">Hadeer Fahmy Beauty Salon</strong> 💇‍♀️💄. With a dedicated team 👩‍🎨🌟 and a relaxing atmosphere 🕯️💆‍♀️, they offer premium beauty services 💅💆 that enhance your natural beauty 🌸👑 and boost your confidence. 💃🔥  </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWv9yLe1dM0uIm2o1FdpRHZ5k6rYgck6VSuw&s" alt="image">
+                            <div class="info">
+                                <h3>Sara Omar</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text"><strong style="color:#e84393">Hadeer Fahmy Beauty Salon</strong> 💇‍♀️💄 is the perfect place for those who seek excellence in beauty care ✨🌟. From hairstyling 💆‍♀️✂️ to skincare 🌿🧖‍♀️, they provide personalized treatments 💅🎀 that guarantee satisfaction 😊💖 and a glamorous look. 👑💃  </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSv-Nd9E3PLjptIvcGSkEc8xyfP6vzUMcQNw&s" alt="image">
+                            <div class="info">
+                                <h3>Malak Nour</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text"><strong style="color:#e84393">Hadeer Fahmy Beauty Salon</strong> 💇‍♀️✨ is your ideal destination for beauty and excellence 👑💎. With a professional team 💅🌟 and luxurious services, you can enjoy the best beauty experience that makes you look more radiant and confident 💖💃.</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="user">
+                            <img width="500" height="300" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgM3EyC-uzDNL0IG3LMlznl_Y1FoDMqXWKIg&s" alt="image">
+                            <div class="info">
+                                <h3>Eman Taher</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text">At <strong style="color:#e84393">Hadeer Fahmy Salon</strong> 💇‍♀️✨, beauty starts here! 💖🌸 They offer the latest beauty trends 💅💄 and exceptional hair and skincare services 💆‍♀️🧖‍♀️, ensuring you a stunning look 👑😍 and a refreshed, confident feeling. 🌟💃</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer" id="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+                    <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+                    <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+                    <a class="link" href="#reviews"> <i class="fas fa-angle-right"></i> reviews</a>
+                </div>
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#" class="link"> <i class="fas fa-angle-right"></i> my order </a>
+                    <a href="#" class="link"> <i class="fas fa-angle-right"></i> my favorite </a>
+                    <a href="#" class="link"> <i class="fas fa-angle-right"></i> my wishlist </a>
+                    <a href="#" class="link"> <i class="fas fa-angle-right"></i> private policy </a>
+                    <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+                </div>
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-phone"></i> +01274925019 </p>
+                    <p> <i class="fab fa-whatsapp"></i> +01274925019 </p>
+                    <p> <i class="fas fa-map"></i> أول البحر - مول الخان - الدور 8 - وحدة 14</p>
+                    <div class="share">
+                        <a href="https://www.facebook.com/share/19cN25zYL5/?mibextid=wwXIfr" class="fab fa-facebook-f"></a>
+                        <a href="https://wa.me/1274925019" class="fab fa-whatsapp"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="credit"> created by <a href="https:www.auro-eg.com" target="_blank" style="color:#e84393">AURO</a> | &copy; 2025 All Rights Reserved! </div>
+        </section>
+
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="script.js" defer></script>
+        <script>lightGallery(document.querySelector('.gallery .lightbox'));</script>
+    </body>
+</html>
